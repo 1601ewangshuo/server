@@ -1,0 +1,1 @@
+.letter{position:fixed;right:0;top:50%;z-index:99;transform:translateY(-50%);display:flex;flex-direction:column;align-items:center}.letter span{height:.4rem;width:.4rem;font-size:.24rem;font-weight:500;color:#666;padding:.05rem .1rem;box-sizing:border-box}

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=no" />
+    <meta name="format-detection" content="telephone=no" />
+    <link rel="stylesheet" href="src/scss/reset.css">
+    <title>car</title>
+    <script>
+        (function() {
+            var designWidth = 750,
+                baseSize = 100;
+            var resize = function() {
+                document.documentElement.style.fontSize = window.innerWidth * baseSize / designWidth + 'px';
+            };
+            (window.onresize = window.onload = resize) && resize();
+        })();
+    </script>
+</head>
+
+<body>
+    <div id="app">
+        <div class="loading hide" id="loading">
+            <div>
+                <img src="/src/assets/loading.gif">
+                <p>加载中...</p>
+            </div>
+        </div>
+    </div>
+    <!-- built files will be auto injected -->
+
+</body>
+
+</html>
